@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="14" fill="#0b2c4d"/>
+<path d="M8 22 32 11l24 11-24 11z" fill="#ffc857"/>
+<path d="M18 29v13c8 7 20 7 28 0V29L32 36z" fill="#fff"/>
+<text x="32" y="57" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffc857">IU</text>
+</svg>

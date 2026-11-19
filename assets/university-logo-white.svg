@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<circle cx="100" cy="100" r="94" fill="#0b2c4d" stroke="#ffc857" stroke-width="7"/>
+<circle cx="100" cy="100" r="78" fill="#0b2c4d"/>
+<path d="M45 73 100 49l55 24-55 24z" fill="#ffc857"/>
+<path d="M65 88v26c20 17 50 17 70 0V88l-35 15z" fill="#fff"/>
+<path d="M151 77v35" stroke="#ffc857" stroke-width="5" stroke-linecap="round"/>
+<circle cx="151" cy="117" r="6" fill="#ffc857"/>
+<text x="100" y="151" font-family="Arial,sans-serif" font-size="27" font-weight="bold" text-anchor="middle" fill="#fff">IU</text>
+</svg>

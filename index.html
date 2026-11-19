@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="University Student Portal">
+  <title>IU Student Portal</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <img src="assets/university-logo.svg" alt="University logo">
+      <span><strong>IU Student Portal</strong><small>Learn Today, Lead Tomorrow</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navbar">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#departments">Departments</a>
+      <a href="#notices">Notices</a><a href="#events">Events</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">WELCOME TO OUR UNIVERSITY</span>
+        <h1>Learn, Grow & Build Your Future</h1>
+        <p>A place for knowledge, innovation, friendship and endless possibilities.</p>
+        <a class="btn" href="#about">Explore More</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading"><span>WHO WE ARE</span><h2>About Our University</h2></div>
+      <p class="intro">Our university is committed to providing quality education, research opportunities and a supportive learning environment. We encourage innovation, creativity and academic excellence.</p>
+      <div class="stats">
+        <article><strong>10,000+</strong><span>Students</span></article>
+        <article><strong>25+</strong><span>Departments</span></article>
+        <article><strong>500+</strong><span>Teachers</span></article>
+        <article><strong>30+</strong><span>Years of Excellence</span></article>
+      </div>
+    </section>
+
+    <section class="section soft" id="departments">
+      <div class="section-heading"><span>ACADEMIC PROGRAMS</span><h2>Our Departments</h2></div>
+      <div class="cards">
+        <article class="card"><div class="card-icon">💻</div><h3>Computer Science</h3><p>Explore programming, artificial intelligence, software engineering and technology.</p></article>
+        <article class="card"><div class="card-icon">📊</div><h3>Business Administration</h3><p>Develop leadership, entrepreneurship and business management skills.</p></article>
+        <article class="card"><div class="card-icon">⚖️</div><h3>Law Department</h3><p>Study legal systems, justice, governance and human rights.</p></article>
+        <article class="card"><div class="card-icon">🔬</div><h3>Science Department</h3><p>Discover science through research, experimentation and practical learning.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="notices">
+      <div class="section-heading"><span>STAY INFORMED</span><h2>University Notice Board</h2></div>
+      <div class="notices">
+        <article class="notice"><time datetime="2026-11-20">20 Nov 2026</time><div><h3>Semester Examination Notice</h3><p>Students are requested to check the examination schedule with their department.</p></div></article>
+        <article class="notice"><time datetime="2026-11-18">18 Nov 2026</time><div><h3>Student Registration</h3><p>Registration is open for the upcoming semester. Contact your department for details.</p></div></article>
+        <article class="notice"><time datetime="2026-11-15">15 Nov 2026</time><div><h3>Academic Calendar Update</h3><p>Please check the latest academic calendar for important dates.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section soft" id="events">
+      <div class="section-heading"><span>CAMPUS LIFE</span><h2>Upcoming Events</h2></div>
+      <div class="cards event-cards">
+        <article class="card"><div class="card-icon">🎤</div><h3>Technology Seminar</h3><p>Talks and ideas about technology and innovation.</p><b>25 November 2026</b></article>
+        <article class="card"><div class="card-icon">🏆</div><h3>Sports Competition</h3><p>Celebrate teamwork, fitness and sporting talent.</p><b>28 November 2026</b></article>
+        <article class="card"><div class="card-icon">🎉</div><h3>Cultural Program</h3><p>Celebrate culture, creativity and student talent.</p><b>5 December 2026</b></article>
+      </div>
+    </section>
+
+    <section class="section" id="registration">
+      <div class="section-heading"><span>JOIN OUR COMMUNITY</span><h2>Student Registration Demo</h2></div>
+      <form class="form" id="registrationForm">
+        <input id="studentName" type="text" placeholder="Your full name" required>
+        <input id="studentEmail" type="email" placeholder="Your email address" required>
+        <input id="studentId" type="text" placeholder="Student ID" required>
+        <select id="studentDepartment" required><option value="">Select department</option><option>Computer Science</option><option>Business Administration</option><option>Law</option><option>Science</option></select>
+        <button class="btn" type="submit">Register Now</button>
+        <p class="form-message" id="registrationMessage" role="status"></p>
+      </form>
+    </section>
+
+    <section class="section soft" id="contact">
+      <div class="section-heading"><span>GET IN TOUCH</span><h2>Contact Us</h2></div>
+      <form class="form" id="contactForm">
+        <input id="contactName" type="text" placeholder="Your name" required>
+        <input id="contactEmail" type="email" placeholder="Your email" required>
+        <textarea id="contactMessage" placeholder="Write your message" rows="5" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+        <p class="form-message" id="contactResponse" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/university-logo-white.svg" alt="" class="footer-logo">
+    <h2>IU Student Portal</h2><p>Learn Today, Lead Tomorrow.</p>
+    <small>© 2026 University Student Portal. Demo website.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
